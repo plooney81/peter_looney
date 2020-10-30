@@ -1,0 +1,22 @@
+li{
+    color: white;
+    cursor: pointer;
+}
+
+.nav-link{
+    color: white;
+}
+
+a:hover { color: #232323 !important; }
+
+hr{
+    background-color: white;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container{
+    margin-top: 5px;
+}
