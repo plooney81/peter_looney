@@ -3,12 +3,13 @@ import Nav from 'react-bootstrap/Nav';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 function App() {
   return (
     <div className="App">
-      <Nav
+      {/* <Nav
         activeKey="/home"
         onSelect={(selectedKey) => alert(`selected ${selectedKey}`)}
       >
@@ -24,7 +25,25 @@ function App() {
         <Nav.Item>
           <Nav.Link eventKey="link-3">Skills</Nav.Link>
         </Nav.Item>
-      </Nav>
+      </Nav> */}
+      <Container>
+        <ul>
+          <Row className='navBar'>
+            <Col>
+              <li>PL</li>
+            </Col>
+            <Col>
+            <li>About Me</li>
+            </Col>
+            <Col>
+            <li>Projects</li>
+            </Col>
+            <Col>
+            <li>Skills</li>
+            </Col>
+          </Row>
+        </ul>
+      </Container>
       <Container>
         <Row>
           <Col>
